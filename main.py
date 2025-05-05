@@ -2,6 +2,8 @@ import pygame
 import trans
 import donut
 
+DONUT_QUALITY = 15 # this scales very fast
+
 WIDTH, HEIGHT = 600, 600
 
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
@@ -13,7 +15,7 @@ CAMERA_SPEED = 2
 env = trans.Environment(90)
 env.set_camera(trans.Vector3(0, 0, -100))
 
-torus = donut.Donut(20, 20, 40)
+torus = donut.Donut(DONUT_QUALITY, 20, 40)
 env.add_child(torus)
 """
 vertex1 = trans.Vertex(trans.Vector3(0, 0, 75))
