@@ -1,5 +1,5 @@
 # donut.py
-spinning donut in a custom 3d engine
+spinning donut in a custom 3d engine. 
 has a couple of bugs(mainly cause i didnt feel like searching how to do it properly)
 
 ### controls
